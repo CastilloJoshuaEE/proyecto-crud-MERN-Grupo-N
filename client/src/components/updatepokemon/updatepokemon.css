@@ -1,0 +1,48 @@
+.updatePokemon {
+  width: 60%;
+  margin: 50px auto;
+  background-color: #eef0f6;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+}
+
+.updatePokemon h3 {
+  text-align: center;
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 30px;
+  color: #3c5aa6;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 0 #759cd8, 0 2px 0 #759cd8, 0 3px 0 #bbb, 0 4px 0 #aaa, 
+               0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 
+               0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 
+               0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 
+               0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.updatePokemon .submit {
+  margin: 20px 0;
+  width: 100%;
+  background-color: #3c5aa6;
+  border-color: #3c5aa6;
+}
+
+.updatePokemon .submit:hover {
+  background-color: #2a3f7f;
+  border-color: #2a3f7f;
+}
+
+.back-btn {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #3c5aa6;
+}

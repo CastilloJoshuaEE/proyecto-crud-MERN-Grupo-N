@@ -1,0 +1,53 @@
+.pokemonTable {
+  width: 80%;
+  margin: 30px auto;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  text-align: center;
+  color: #ffcb05;
+  text-shadow: 2px 2px 0 #3c5aa6, -2px -2px 0 #3c5aa6, 2px -2px 0 #3c5aa6, -2px 2px 0 #3c5aa6;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.add-btn {
+  margin-bottom: 20px;
+}
+
+.pokemonTable table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.pokemonTable table thead th {
+  background-color: #3c5aa6;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.pokemonTable table tbody td {
+  padding: 12px;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+
+.actionsButtons button, .actionsButtons a {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 0.875rem;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #6c757d;
+}
